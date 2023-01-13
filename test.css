@@ -1,0 +1,20 @@
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    display: none;
+    transition: .5s ease;
+}
+
+.img-container:hover .overlay {
+    display: block;
+}
